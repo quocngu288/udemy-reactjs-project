@@ -1,0 +1,79 @@
+//cover
+.container__config1 {
+  margin-top: 150px;
+
+  .content-signin {
+    margin-top: 10px;
+
+    h3 {
+      @include text($color-black-0, $fs-2, $fw-bold);
+    }
+    p {
+      @include text($color-black-0, $fs-0, $fw-bold);
+      margin-top: 5px;
+    }
+    .btn--btn_blue {
+      width: 150px;
+
+      span {
+        border: 1px solid $color-white-0;
+        background-color: $color-white-0;
+        color: #3a559f;
+        padding: 0 8px;
+        margin-right: 3px;
+      }
+      &:hover {
+        span {
+          color: $color-white-0;
+          background-color: #3a559f;
+          border: 1px solid #3a559f;
+        }
+      }
+    }
+    .btn--btn_red-1 {
+      width: 150px;
+      margin-left: 10px;
+
+      span {
+        color: $color-white-0;
+        padding: 0 8px;
+        margin-right: 3px;
+      }
+      &:hover {
+        span {
+          color: #df322f;
+        }
+      }
+    }
+    .haveAccount {
+      text-decoration: none;
+
+      p {
+        color: darkblue;
+        font-weight: bolder;
+        text-align: right;
+        margin-right: 10px;
+      }
+    }
+  }
+  .content_img {
+    // background-image: url('../../img/im-digital.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 50%;
+    top: 20%;
+    position: fixed;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+}
+
+.section {
+  background-color: $color-green-0;
+}
