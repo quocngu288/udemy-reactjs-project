@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import ModelSignIn from '../component/SignIn/ModelSignIn';
 import ModelRes from '../component/Res/ModelRes'
 import { connect } from 'react-redux'
-import InputSearch from '../component/search/InputSearch';
-import PanelSearch from '../component/search/PanelSearch';
+import InputSearch from '../component/Search/InputSearch';
+import PanelSearch from '../component/Search/PanelSearch';
 import { LOGIN_FAIL } from '../constans/type';
 import _ from 'lodash'
 import { setCurrentUserEmpty } from '../store/actions/action'
